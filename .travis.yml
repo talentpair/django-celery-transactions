@@ -9,9 +9,7 @@ services: mysql
 
 env:
   - DJANGO="django==1.10.4" DB="mysql"
-  - DJANGO="django==1.8.5" DB="mysql"
-  - DJANGO="django==1.7.10" DB="mysql"
-  - DJANGO="django==1.6.11" DB="mysql"
+  - DJANGO="django==1.8.17" DB="mysql"
 
 install:
   - pip install $DJANGO
